@@ -4,13 +4,18 @@ from mods_base import build_mod, command, Game, get_pc
 
 assert mods_base.__version_info__ >= (1, 0), "Please update the SDK"
 
-__version__ = "1.0.0"  
+__version__ = "1.0.0"  
 __version_info__ = (1, 0, 0)
 
-@command("add_to_inv", 
-         description='Adds the "add_to_inv" command to add a serial code from a save editor."')
+@command("add_to_inv",
+        description="Adds the \"add_to_inv\" command to add a serial code from a save editor.")
 def add_to_inv(args: Namespace) -> None:
-"""Adds a serial code to the player's inventory"""
+    """
+    Adds the specified serial code to the player's inventory.
+
+    Args:
+        args (Namespace): The parsed command-line arguments.
+    """
     pc = get_pc()
     serial_code = args.serial_code
 
@@ -28,8 +33,6 @@ def add_to_inv(args: Namespace) -> None:
 
     print("Successfully added to inventory")
 
-
 add_to_inv.add_argument("serial_code", help="Params are `add_to_inv SERIALCODE FROM SAVE EDITOR`")
-
 
 build_mod()
