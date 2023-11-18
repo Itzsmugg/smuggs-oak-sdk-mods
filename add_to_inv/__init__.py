@@ -12,7 +12,7 @@ __version_info__: tuple[int, ...]
 def add_to_inv(args: Namespace) -> None:
     pc = get_pc()
     serial_code = args.serial_code
-    
+
     if '(' in serial_code and ')' in serial_code:
         start = serial_code.find('(') + 1
         end = serial_code.find(')')
@@ -24,7 +24,7 @@ def add_to_inv(args: Namespace) -> None:
         pc.ServerAddGearToInventory(serial_code, 0) 
     elif Game.get_current() is Game.WL:
         pc.ServerAddGearToInventory(serial_code, 0, 0)
-        
+
     print("Successfully added to inventory")
 
 
