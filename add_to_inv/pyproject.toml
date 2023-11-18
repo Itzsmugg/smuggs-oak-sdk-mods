@@ -1,0 +1,8 @@
+[project]
+name = "Add To Inv"
+version = "1"
+authors = [{ name = "ItzSmugg" }]
+description = "Adds the 'add_to_inv' command to add a serial code to add a serial code from a save editor."
+
+[tool.sdkmod]
+name = "Add To Inv"
