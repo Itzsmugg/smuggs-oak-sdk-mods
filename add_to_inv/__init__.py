@@ -2,7 +2,6 @@ if True:
     assert __import__("mods_base").__version_info__ >= (1, 0), "Please update the SDK"
 
 from argparse import Namespace  
-import unrealsdk
 from mods_base import get_pc, build_mod, command, Game
 
 __version__: str
