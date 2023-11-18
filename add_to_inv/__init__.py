@@ -1,10 +1,10 @@
 import mods_base
-from argparse import Namespace  
-from mods_base import get_pc, build_mod, command, Game
+from argparse import Namespace
+from mods_base import build_mod, command, Game, get_pc
 
 assert mods_base.__version_info__ >= (1, 0), "Please update the SDK"
 
-__version__ = "1.0.0"
+__version__ = "1.0.0"  
 __version_info__ = (1, 0, 0)
 
 @command("add_to_inv", 
