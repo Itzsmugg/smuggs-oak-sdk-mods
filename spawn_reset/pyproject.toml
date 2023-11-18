@@ -7,3 +7,5 @@ DISCLAIMER: using this mod during a playthrough could result in a sequence break
 
 [tool.sdkmod]
 name = "Spawn Reset"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/releases/download/nightly/spawn_reset.sdkmod"
