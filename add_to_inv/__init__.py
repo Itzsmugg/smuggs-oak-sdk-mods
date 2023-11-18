@@ -29,7 +29,7 @@ def add_to_inv(args: Namespace) -> None:
 
 
 
-add_to_inv.add_argument("serial_code", help="Parameters are `add_to_inv SERIALCODE FROM SAVE EDITOR")
+add_to_inv.add_argument("serial_code", help="Params are `add_to_inv SERIALCODE FROM SAVE EDITOR")
 
 
 build_mod()
