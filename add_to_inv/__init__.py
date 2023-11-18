@@ -7,15 +7,16 @@ assert mods_base.__version_info__ >= (1, 0), "Please update the SDK"
 __version__: str
 __version_info__: tuple[int, ...]
 
-@command("add_to_inv",
+
+@command("add_to_inv", 
         description="Adds the \"add_to_inv\" command to add a serial code from a save editor.")
 def add_to_inv(args: Namespace) -> None:
-    """
-    Adds the specified serial code to the player's inventory.
+    """Adds the specified serial code to the player's inventory.
 
     Args:
         args (Namespace): The parsed command-line arguments.
     """
+    
     pc = get_pc()
     serial_code = args.serial_code
 
@@ -32,6 +33,7 @@ def add_to_inv(args: Namespace) -> None:
         pc.ServerAddGearToInventory(serial_code, 0, 0)
 
     print("Successfully added to inventory")
+
 
 add_to_inv.add_argument("serial_code", help="Params are `add_to_inv SERIALCODE FROM SAVE EDITOR`")
 
