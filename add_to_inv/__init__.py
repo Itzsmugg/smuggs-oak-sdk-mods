@@ -10,7 +10,7 @@ __version_info__ = (1, 0, 0)
 @command("add_to_inv", 
          description='Adds the "add_to_inv" command to add a serial code from a save editor."')
 def add_to_inv(args: Namespace) -> None:
-  """Adds a serial code to the player's inventory"""
+"""Adds a serial code to the player's inventory"""
     pc = get_pc()
     serial_code = args.serial_code
 
