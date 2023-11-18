@@ -1,12 +1,11 @@
 import mods_base
-assert mods_base.__version_info__ >= (1, 0), "Please update the SDK"
-
-from argparse import Namespace
+from argparse import Namespace  
 from mods_base import get_pc, build_mod, command, Game
+
+assert mods_base.__version_info__ >= (1, 0), "Please update the SDK"
 
 __version__ = "1.0.0"
 __version_info__ = (1, 0, 0)
-
 
 @command("add_to_inv", 
          description='Adds the "add_to_inv" command to add a serial code from a save editor."')
@@ -19,7 +18,7 @@ def add_to_inv(args: Namespace) -> None:
         end = serial_code.find(")")
         serial_code = serial_code[start:end]
 
-    print(f'Adding serial code {serial_code} to inventory')
+    print(f"Adding serial code {serial_code} to inventory")
 
     if Game.get_current() is Game.BL3:
         pc.ServerAddGearToInventory(serial_code, 0)
