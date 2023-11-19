@@ -1,11 +1,10 @@
-from argparse import Namespace
 import mods_base
-
+from argparse import Namespace  
 from mods_base import (
-    build_mod,
+    build_mod,  
     command,
     Game,
-    get_pc, 
+    get_pc,
 )
 
 assert mods_base.__version_info__ >= (1, 0), "Please update the SDK"
@@ -23,7 +22,7 @@ def add_to_inv(args: Namespace) -> None:
     Args:
         args (Namespace): The parsed command-line arguments.
     """
-
+    
     pc = get_pc()
     serial_code = args.serial_code
 
@@ -32,7 +31,7 @@ def add_to_inv(args: Namespace) -> None:
         end = serial_code.find(")")
         serial_code = serial_code[start:end]
 
-    print(f"Adding serial code {serial_code} to inventory")
+    print(f'Adding serial code {serial_code} to inventory')
 
     if Game.get_current() is Game.BL3:
         pc.ServerAddGearToInventory(serial_code, 0)
