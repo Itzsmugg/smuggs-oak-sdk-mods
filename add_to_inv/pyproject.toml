@@ -2,8 +2,7 @@
 name = "Add_to_inv"
 version = "1"
 authors = [{ name = "Itzsmugg" }]
-description = """Adds a keybind to reset all spawns.
-DISCLAIMER: using this mod during a playthrough could result in a sequence break in the mission progress, which could lead to a progress block"""
+description = "Adds the add_to_inv command to add a serial code from a save editor."
 
 [tool.sdkmod]
 name = "add to inv"
