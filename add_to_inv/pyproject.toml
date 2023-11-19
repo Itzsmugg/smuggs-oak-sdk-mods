@@ -1,8 +1,13 @@
 [project]
-name = "Add To Inv"
+name = "Add_to_inv"
 version = "1"
-authors = [{ name = "ItzSmugg" }]
-description = "Adds the 'add_to_inv' command to add a serial code to add a serial code from a save editor."
+authors = [{ name = "Itzsmugg" }]
+description = """Adds a keybind to reset all spawns.
+DISCLAIMER: using this mod during a playthrough could result in a sequence break in the mission progress, which could lead to a progress block"""
 
 [tool.sdkmod]
-name = "Add To Inv"
+name = "add to inv"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/releases/download/nightly/add_to_inv.sdkmod"
+
+
