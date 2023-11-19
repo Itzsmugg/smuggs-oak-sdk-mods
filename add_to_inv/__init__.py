@@ -1,11 +1,11 @@
-import mods_base
 from argparse import Namespace
+import mods_base
 
 from mods_base import (
     build_mod,
     command,
     Game,
-    get_pc,
+    get_pc, 
 )
 
 assert mods_base.__version_info__ >= (1, 0), "Please update the SDK"
