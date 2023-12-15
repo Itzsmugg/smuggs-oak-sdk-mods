@@ -1,0 +1,12 @@
+[project]
+name = "smoother_melee"
+version = "1"
+authors = [{ name = "ItzSmugg" }]
+description = "Removes snap lock targeting from melee in wonderlands and makes melee slightly faster aswell as smoothing out some other things in the melee attack for a smoother experience"
+
+[tool.sdkmod]
+name = "smoother_melee"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
+download = ""
+version = "1.0"
+supported_games = "WL"
