@@ -7,6 +7,6 @@ description = "Removes snap lock targeting from melee in wonderlands and makes m
 [tool.sdkmod]
 name = "smoother_melee"
 license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
-download = ""
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/raw/master/smoother_melee/smoother_melee.sdkmod"
 version = "1.0"
 supported_games = "WL"
