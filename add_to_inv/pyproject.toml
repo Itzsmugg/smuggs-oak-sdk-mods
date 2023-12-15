@@ -7,6 +7,6 @@ description = "Adds the add_to_inv command to add a serial code from a save edit
 [tool.sdkmod]
 name = "add to inv"
 license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
-download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/releases/download/nightly/add_to_inv.sdkmod"
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/raw/master/add_to_inv/add_to_inv.sdkmod"
 
 
