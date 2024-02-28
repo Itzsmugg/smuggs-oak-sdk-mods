@@ -1,0 +1,11 @@
+[project]
+name = "Projectile Dysfunction"
+version = "1"
+authors = [{ name = "Itzmugg" }]
+description = "Changes all weapon projectiles to the fakobs projectile"
+
+[tool.sdkmod]
+name = "Projectile Dysfunction"
+supported_games = ["BL3"]
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/raw/master/projectile_dysfunction/projectile_dysfunction.sdkmod"
+version = "1.0"
