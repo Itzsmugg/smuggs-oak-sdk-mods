@@ -53,7 +53,8 @@ def draw(
         TEXT = f"""Last Hit Object: 
         Class: {CLASS} 
         Name: {NAME}"""
-        obj.DrawText(TEXT, YELLOW, 10, 10, FONT, 0.5 + on_screen_size.value / 100, False)
+        if draw_text_bool.value:
+            obj.DrawText(TEXT, YELLOW, 10, 10, FONT, 0.5 + on_screen_size.value / 100, False)
 
 
 @hook("/Script/GbxWeapon.LightProjectileData:OnImpact", Type.POST)
