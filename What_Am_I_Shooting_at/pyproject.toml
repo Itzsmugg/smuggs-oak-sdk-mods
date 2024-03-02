@@ -8,5 +8,5 @@ options to draw details on HUD aswell as dumping to the log"""
 [tool.sdkmod]
 name = "What Am I Shooting At?"
 supported_games = ["BL3"]
-download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/raw/master/projectile_dysfunction/projectile_dysfunction.sdkmod"
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/blob/master/What_Am_I_Shooting_at/What_Am_I_Shooting_at.sdkmod"
 version = "1.0"
