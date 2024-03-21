@@ -6,3 +6,4 @@ description = "Allows rollable Anoints to be trimmed."
 
 [tool.sdkmod]
 name = "Anoint Trimmer"
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/releases/tag/Anoint_Trimmer_V1.0"
