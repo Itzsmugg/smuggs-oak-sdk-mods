@@ -1,0 +1,8 @@
+[project]
+name = "Anoint_Trimmer"
+version = "1"
+authors = [{ name = "ItzSmugg" }]
+description = "Allows rollable Anoints to be trimmed."
+
+[tool.sdkmod]
+name = "Anoint Trimmer"
