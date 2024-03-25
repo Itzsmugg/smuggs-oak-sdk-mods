@@ -1,12 +1,10 @@
 [project]
-name = "What Am I Shooting At?"
+name = "Spawn_reset"
 version = "1"
-authors = [{ name = "Itzmugg" }]
-description = """Shoot at an object to discover it's name and class
-options to draw details on HUD aswell as dumping to the log"""
+authors = [{ name = "Itzsmugg" }]
+description = """Adds a keybind to reset all spawns.
+DISCLAIMER: using this mod during a playthrough could result in a sequence break in the mission progress, which could lead to a progress block"""
 
 [tool.sdkmod]
-name = "What Am I Shooting At?"
-supported_games = ["BL3"]
-download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/blob/master/What_Am_I_Shooting_at/What_Am_I_Shooting_at.sdkmod"
-version = "1.0"
+name = "Spawn Reset"
+version = "1 (8101b8c9)"

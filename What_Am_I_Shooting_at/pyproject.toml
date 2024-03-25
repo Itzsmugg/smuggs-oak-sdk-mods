@@ -1,6 +1,6 @@
 [project]
 name = "What Am I Shooting At?"
-version = "1"
+version = "1.1.0"
 authors = [{ name = "Itzmugg" }]
 description = """Shoot at an object to discover it's name and class
 options to draw details on HUD aswell as dumping to the log"""

@@ -16,7 +16,7 @@ CLASS = "NONE"
 NAME = "NONE"
 TEXT = "NONE"
 
-draw_x = SliderOption(identifier="draw_x", display_name="HUD Display X", value=10, min_value=0, max_value=1000, is_integer=False)
+draw_x = SliderOption(identifier="draw_x", display_name="HUD Display X", value=10, min_value=0, max_value=1600, is_integer=False)
 draw_y = SliderOption(identifier="HUD Display Y", display_name="HUD Display Y", value=10, min_value=0, max_value=1000, is_integer=False)
 on_screen_size = SliderOption("HUD Display Font Size", 0, 0, 100, is_integer=True) 
 
