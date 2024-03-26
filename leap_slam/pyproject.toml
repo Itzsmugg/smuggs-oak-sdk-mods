@@ -7,6 +7,6 @@ description = """Allows the player to leap slam, when slamming from a sprint jum
 [tool.sdkmod]
 name = "Leap Slam"
 license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
-download = ""
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/releases/tag/slamleap"
 version = "1"
 
