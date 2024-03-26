@@ -16,16 +16,16 @@ __version_info__: tuple[int, ...]
 slam = unrealsdk.find_object("ControlledMove_Global_GroundSlam_High_C", "/Game/PlayerCharacters/_Shared/_Design/GroundSlam/High/ControlledMove_Global_GroundSlam_High.Default__ControlledMove_Global_GroundSlam_High_C")
 sprint = False
 sprintjump = False
-@hook("/Script/OakGame.OakCharacter:OnStartSprinting", Type.PRE, auto_enable=True)
+@hook("/Script/OakGame.OakCharacter:OnStartSprinting", Type.PRE)
 def OnStartSprinting(obj: UObject, args: WrappedStruct, _3: Any, _4: BoundFunction) -> None:
 
     global sprint
     sprint = True
-@hook("/Script/OakGame.OakCharacter:OnEndSprinting", Type.PRE, auto_enable=True)
+@hook("/Script/OakGame.OakCharacter:OnEndSprinting", Type.PRE)
 def OnEndSprinting(obj: UObject, args: WrappedStruct, _3: Any, _4: BoundFunction) -> None:
     global sprint
     sprint = False
-@hook("/Script/OakGame.OakPlayerController:JumpPressed", Type.PRE, auto_enable=True)
+@hook("/Script/OakGame.OakPlayerController:JumpPressed", Type.PRE)
 def JumpPressed(obj: UObject, args: WrappedStruct, _3: Any, _4: BoundFunction) -> None:
     
     global sprintjump
