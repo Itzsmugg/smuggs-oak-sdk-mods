@@ -3,7 +3,7 @@ name = "Leap_Slam"
 version = "1"
 authors = [{ name = "Itzsmugg" }]
 description = """Allows the player to leap slam, when slamming from a sprint jump, thrusting the player forwards before slamming on the ground.
-Distance scales with Players Speed
+Scales with Players Speed
 
 """
 
