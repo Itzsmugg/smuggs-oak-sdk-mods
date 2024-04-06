@@ -8,3 +8,4 @@ DISCLAIMER: using this mod during a playthrough could result in a sequence break
 [tool.sdkmod]
 name = "Spawn Reset"
 version = "1 (8101b8c9)"
+download = "https://github.com/Itzsmugg/smuggs-oak-sdk-mods/raw/master/spawn_reset/spawn_reset.sdkmod"
